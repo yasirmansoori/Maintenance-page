@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+body {
+    background: #EEEEF4;
+    color: #999;
+    font-family: Roboto;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 27pt;
+    color: #E43;
+}
+
+p {
+    font-weight: 300;
+}
+
+.content {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+}
+
+.social {
+    position: absolute;
+    top: 72%;
+}
+
+.social-inner {
+    width: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-inner a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-inner a svg {
+    width: 30px;
+    fill: #ffffff;
+}
+
+.social-inner .portfolio {
+    background-color: rgb(0, 60, 255);
+}
+
+.social-inner .github {
+    background-color: rgb(24, 22, 22);
+}
+
+.social-inner .linkedin {
+    background-color: #33BBFF;
+}
+
+.social-inner .instagram {
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040);
+}
+
+.social-inner a:hover {
+    width: 90px;
+}
